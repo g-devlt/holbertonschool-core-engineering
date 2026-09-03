@@ -2,8 +2,8 @@
 from calculator_1 import add, sub, mul, div
 
 if __name__ == "__main__":
-    a = 1
-    b = 2
+    a = 10
+    b = 5
     c = add(a, b)
     d = sub(a, b)
     e = mul(a, b)
