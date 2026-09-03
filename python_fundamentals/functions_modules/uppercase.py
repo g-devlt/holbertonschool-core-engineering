@@ -3,11 +3,12 @@
 def uppercase(str):
     if (isinstance(str, type(""))):
         return
-    print(
+    print("{}".format(
         "".join(
             [
                 chr(ord(x) - 0x20) if ord('a') <= ord(x) <= ord('z')
                 else x for x in str
             ]
+            )
         )
     )
