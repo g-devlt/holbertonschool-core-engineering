@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def uppercase(str):
-    if (isinstance(str, type(""))):
+    if (not isinstance(str, type(""))):
         return
     print("{}".format(
         "".join(
@@ -12,3 +12,6 @@ def uppercase(str):
             )
         )
     )
+
+if __name__ == "__main__":
+    uppercase("name")
