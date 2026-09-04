@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def common_elements(set_1, set_2):
-    if(not (isinstance(set_1, set) and isinstance(set_2, set))):
+    if (not (isinstance(set_1, set) and isinstance(set_2, set))):
         return None
     return set_1 & set_2
 
