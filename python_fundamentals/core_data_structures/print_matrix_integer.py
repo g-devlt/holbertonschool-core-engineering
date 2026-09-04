@@ -10,8 +10,8 @@ def print_matrix_integer(matrix=[[]]):
                 end=" " if idx != (len(line) - 1) else "\n"
             )
             for idx, coord in enumerate(line)
-        ] for line in matrix
-    ]
+        ] if len(line) > 0 else print() for line in matrix
+    ] if len(matrix) > 0 else print()
 
 
 if __name__ == "__main__":
