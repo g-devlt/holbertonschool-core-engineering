@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
 def element_at(my_list, idx):
-    try:
-        return my_list[idx] if idx >= 0 else None
-    except:
-        return None
+    return my_list[idx] if idx >= 0 and len(my_list) > idx else None
+
 
 
 if __name__ == "__main__":
