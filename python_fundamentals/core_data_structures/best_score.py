@@ -8,7 +8,6 @@ def best_score(a_dictionary: dict):
     )[0][0] if a_dictionary is not None and len(a_dictionary) > 0 else None
 
 
-
 if __name__ == "__main__":
     print(best_score({
         "Gabriel": 2,
