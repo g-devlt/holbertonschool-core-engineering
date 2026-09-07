@@ -14,17 +14,15 @@ class Square():
             raise ValueError("size must be >= 0")
         self.__size = sz
 
-
     def area(self):
         return self.__size ** 2
 
     def my_print(self):
-        if(self.size == 0):
+        if (self.size == 0):
             print()
         else:
             for y in range(self.size):
                 print("#" * self.size)
-        
 
     def __init__(self, sz: int = 0):
         self.size = sz
@@ -41,4 +39,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
     sq.my_print()
-
