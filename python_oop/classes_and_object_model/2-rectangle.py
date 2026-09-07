@@ -35,9 +35,15 @@ class Rectangle():
         self.__height = sz
 
     def area(self):
+        """Small helper function
+        l * L
+        """
         return self.width * self.height
 
     def perimeter(self):
+        """Small helper function
+        2l + 2L
+        """
         if (self.width == 0 or self.height == 0):
             return 0
         return 2 * self.width + 2 * self.height
