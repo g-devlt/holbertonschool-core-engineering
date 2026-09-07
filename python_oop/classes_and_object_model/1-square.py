@@ -5,6 +5,7 @@ mostly a structure of data with helper functions
 @author g-devlt
 """
 
+
 class Square():
     """The square class is the main attraction of
     the module, bascially a helper class for geometry

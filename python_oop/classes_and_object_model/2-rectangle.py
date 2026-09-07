@@ -5,6 +5,7 @@ mostly a structure of data with helper functions
 @author g-devlt
 """
 
+
 class Rectancle():
     """A pretty simple class helper
     for geometry with height and width
