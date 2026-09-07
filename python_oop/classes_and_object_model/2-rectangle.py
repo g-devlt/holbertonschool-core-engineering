@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
+"""This module is used for defining the Square class.
+The rect class allows for multiple different patterns of use
+mostly a structure of data with helper functions
+@author g-devlt
+"""
 
 class Rectancle():
-
+    """A pretty simple class helper
+    for geometry with height and width
+    """
     @property
     def width(self):
         return self.__width
