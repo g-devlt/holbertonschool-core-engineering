@@ -11,7 +11,7 @@ class Square():
     the module, bascially a helper class for geometry
     """
 
-    def __init__(self, sz: int):
+    def __init__(self, sz: int = 0):
         if not isinstance(sz, int):
             raise TypeError("size must be an integer")
         if sz < 0:
