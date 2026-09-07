@@ -6,7 +6,7 @@ mostly a structure of data with helper functions
 """
 
 
-class Rectancle():
+class Rectangle():
     """A pretty simple class helper
     for geometry with height and width
     """
@@ -48,4 +48,4 @@ class Rectancle():
 
 
 if __name__ == "__main__":
-    rec1 = Rectancle(1, 2)
+    rec1 = Rectangle(1, 2)
