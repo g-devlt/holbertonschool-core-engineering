@@ -4,8 +4,6 @@ def safe_print_list(my_list=[], x=0):
     length = 0
     try:
         for i in range(x):
-            if (i):
-                print(" ", end="")
             print("{}".format(my_list[i]), end="")
             length += 1
     except IndexError:
