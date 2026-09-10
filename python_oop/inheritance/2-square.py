@@ -3,10 +3,10 @@
 into the Square class
 """
 
-BaseGeometry = __import__("base_geometry").BaseGeometry
+Rectangle = __import__("1-rectangle").Rectangle
 
 
-class Square(BaseGeometry):
+class Square(Rectangle):
     """A simple class that implements BaseGeometry
     """
 
@@ -16,8 +16,7 @@ class Square(BaseGeometry):
         return self.__size ** 2
 
     def __init__(self, size: int):
-        self.integer_validator("size", size)
-        self.__size = size
+        super().__init__(self, size, size)
 
     def __str__(self):
         return "[{}] {o}/{o}".format(type(self).__name__, o = self.__size)
