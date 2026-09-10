@@ -22,7 +22,11 @@ class Rectangle(BaseGeometry):
         self.__height = height
 
     def __str__(self):
-        return "[{}] {}/{}".format(type(self).__name__, self.__width, self.__height)
+        return "[{}] {}/{}".format(
+                type(self).__name__,
+                self.__width,
+                self.__height
+            )
     
 if __name__ == "__main__":
     rect = Rectangle(10, 10)

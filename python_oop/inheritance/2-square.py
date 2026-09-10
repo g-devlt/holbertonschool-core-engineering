@@ -19,7 +19,11 @@ class Square(Rectangle):
         super().__init__(self, size, size)
 
     def __str__(self):
-        return "[{}] {o}/{o}".format(type(self).__name__, o = self.__size)
+        return "[{}] {}/{}".format(
+                type(self).__name__,
+                self.__width,
+                self.__height
+            )
     
 if __name__ == "__main__":
     sq = Square(10, 10)
