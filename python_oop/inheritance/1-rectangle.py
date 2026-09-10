@@ -7,6 +7,8 @@ BaseGeometry = __import__("base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
+    """A simple class that implements BaseGeometry
+    """
 
     def area(self) -> int:
         """Returns the area of this shape
