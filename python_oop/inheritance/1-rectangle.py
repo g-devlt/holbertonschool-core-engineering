@@ -27,7 +27,8 @@ class Rectangle(BaseGeometry):
                 self.__width,
                 self.__height
             )
-    
+
+
 if __name__ == "__main__":
     rect = Rectangle(10, 10)
     print(rect.area())

@@ -18,6 +18,7 @@ class Square(BaseGeometry):
     def __init__(self, size: int):
         super().__init__(self, size, size)
 
+
 if __name__ == "__main__":
     sq = Square(10, 10)
     print(sq.area())

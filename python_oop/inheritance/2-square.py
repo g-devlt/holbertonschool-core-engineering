@@ -24,7 +24,8 @@ class Square(Rectangle):
                 self.__width,
                 self.__height
             )
-    
+
+
 if __name__ == "__main__":
     sq = Square(10, 10)
     print(sq.area())
