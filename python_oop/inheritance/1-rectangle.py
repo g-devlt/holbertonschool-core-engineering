@@ -9,8 +9,8 @@ BaseGeometry = __import__("base_geometry").BaseGeometry
 class Rectangle(BaseGeometry):
     """A simple class that implements BaseGeometry
     """
-    __width: int
-    __height: int
+    __width = 0
+    __height = 0
 
     def area(self) -> int:
         """Returns the area of this shape
@@ -27,3 +27,4 @@ class Rectangle(BaseGeometry):
 if __name__ == "__main__":
     rect = Rectangle(10, 10)
     print(rect.area())
+    print(dir(rect))
