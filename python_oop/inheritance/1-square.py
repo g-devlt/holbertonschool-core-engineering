@@ -3,10 +3,10 @@
 into the Square class
 """
 
-BaseGeometry = __import__("base_geometry").BaseGeometry
+Rectangle = __import__("1-rectangle").Rectangle
 
 
-class Square(BaseGeometry):
+class Square(Rectangle):
     """A simple class that implements BaseGeometry
     """
 
