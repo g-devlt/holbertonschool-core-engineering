@@ -9,17 +9,19 @@ BaseGeometry = __import__("base_geometry").BaseGeometry
 class Rectangle(BaseGeometry):
     """A simple class that implements BaseGeometry
     """
+    __width: int
+    __height: int
 
     def area(self) -> int:
         """Returns the area of this shape
         """
-        return self.width * self.height
+        return self.__width * self.__height
 
     def __init__(self, width: int, height: int):
         self.integer_validator("width", width)
-        self.width = width
+        self.__width = width
         self.integer_validator("height", height)
-        self.height = height
+        self.__height = height
 
 
 if __name__ == "__main__":
