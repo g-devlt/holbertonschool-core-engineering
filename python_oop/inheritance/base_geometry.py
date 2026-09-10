@@ -2,6 +2,7 @@
 """A module that defines the interface BaseGeometry:
 """
 
+
 class BaseGeometry():
     """The interface that provides a building block and
     polymorphism to your projects !
@@ -19,5 +20,3 @@ class BaseGeometry():
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
-
-    
