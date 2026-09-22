@@ -5,7 +5,7 @@ that writes to a file
 
 
 def write_file(filename="", text=""):
-    """Writes text to a 
+    """Writes text to a
     provided file path
     """
 
