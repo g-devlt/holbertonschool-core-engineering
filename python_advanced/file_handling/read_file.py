@@ -3,6 +3,7 @@
 that reads and returns the content of a file
 """
 
+
 def read_file(filename=""):
     """Reads and returns the content of a file
     """
