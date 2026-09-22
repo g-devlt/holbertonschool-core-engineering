@@ -7,7 +7,7 @@ def read_file(filename=""):
     """Reads and returns the content of a file
     """
     with open(filename) as f:
-        print(f.read())
+        print(f.read(), end="")
 
 
 if __name__ == "__main__":
